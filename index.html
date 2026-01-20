@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tech.css">
     <title>Techwave</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Momo+Trust+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
+    <!--part1-->
+    <header class="bg-[#1a0b2e]">
+        <div class="navbar w-[75%] mx-auto h-[92px] flex justify-between items-center">
+            <h1 class="text-[32px] text-white font-bold whitespace-nowrap">Tech <span
+                    class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent font-bold text-[32px] -ml-2">Wave</span>
+            </h1>
+            <div class="menupart hidden [16px] text-white flex gap-[32px]">
+                <a class="hover:text-[#FB09B4]" href="#">About</a>
+                <a class="hover:text-[#FB09B4]" href="#">Episodes</a>
+                <a class="hover:text-[#FB09B4]" href="#">Host</a>
+            </div>
+            <div class="menupart hidden subscribe text-white w-[135px] h-[44px] font-semibold bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8]  text-transparent border border-[#1a0b2e] rounded-[30px] flex justify-center items-center hover:font-bold cursor-pointer gap-[3px]">
+                 <h1 class="text-[16px] ">Subscribe</h1>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+            </div>
+
+              <img class="w-[24px] h-[24px] md:hidden" src="assets/hamburger-menu.png" alt="">
+
+        </div>
+
+    </header>
+
 </body>
+
 </html>
