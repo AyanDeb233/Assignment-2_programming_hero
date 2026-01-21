@@ -49,15 +49,15 @@
     <!--part2-->
     <section class="hero overflow-hidden">
         <div
-            class="hero-content w-full h-[500px] sm:h-[550px] lg:h-[760px] bg-[url('assets/hero-bg.png')] bg-cover bg-center relative grid grid-cols-1 gap-[240px] md:gap-[280px] lg:gap-[340px]">
+            class="hero-content w-full h-[500px] sm:h-[550px] lg:h-[760px] bg-[url('assets/hero-bg.png')] bg-cover bg-center bg-contain relative grid grid-cols-1 gap-[240px] md:gap-[280px] lg:gap-[340px]">
             <div class="image_section">
                 <div
-                    class="circle w-full mx-auto pt-[60px] sm:pt-[70px] md:pt-[80px] lg:pt-[101px] absolute flex justify-center items-center">
-                    <img class="w-[200px] h-[200px] sm:w-[220px] sm:h-[220px] md:w-[250px] md:h-[250px] lg:w-[350px] lg:h-[350px]"
+                    class="circle w-full mx-auto pt-[70px] sm:pt-[70px] md:pt-[80px] lg:pt-[101px] absolute flex justify-center items-center">
+                    <img class="w-[230px] h-[230px] sm:w-[240px] sm:h-[240px] md:w-[250px] md:h-[250px] lg:w-[350px] lg:h-[350px]"
                         src="assets/hero-circle.png" alt="">
                 </div>
                 <div
-                    class="micro w-full pt-[120px] mx-auto sm:pt-[140px] md:pt-[150px] lg:pt-[170px] absolute flex justify-center items-center">
+                    class="micro w-full pt-[120px] mx-auto pt-[140px] sm:pt-[150px] md:pt-[150px] lg:pt-[170px] absolute flex justify-center items-center">
                     <img class="w-[50px] h-[80px] sm:w-[50px] sm:h-[80px] md:w-[70px] md:h-[120px] lg:w-[120px] lg:h-[200px]"
                         src="assets/microphone.png" alt="">
                 </div>
@@ -71,8 +71,8 @@
                 </div>
             </div>
 
-            <div class="text_wave">
-                <h1 class="text-[40px] lg:text-[60px] text-white font-bold text-center">TechWave</h1>
+            <div class="text_wave sm:mt-[20px]">
+                <h1 class="text-[40px] lg:text-[60px] pt-[40px] sm:pt-[20px] text-white font-bold text-center">TechWave</h1>
                 <p class="text-[16px] text-white text-white/70 text-center">Your daily dose of tech insights,
                     productivity hacks, and personal growth</p>
                 <div class="logo flex justify-center items-center gap-[10px] mt-[24px]">
@@ -96,7 +96,7 @@
     <section class="about overflow-hidden bg-[#1a0b2e]">
         <div class="about_content w-[75%] mt-[50px] mb-[120px] mx-auto">
             <div class="about_section">
-                <h1 class="text-[48px] font-bold text-white text-center mb-[16px]">About the Podcast</h1>
+                <h1 class="text-[32px] lg:text-[48px] whitespace-nowrap font-bold text-white text-center mb-[16px]">About the Podcast</h1>
                 <p class="text-[16px] text-white/70 leading-loose text-center mb-[40px]">TechWave is your go-to podcast
                     for staying ahead in the fast-paced world of technology. <br>
                     We break down complex topics into digestible insights, explore productivity strategies that actually
@@ -133,10 +133,10 @@
     </section>
 
     <!--part4-->
-    <section class="box_model overflow-hidden">
+    <section class="box_model overflow-hidden bg-[#230e3d]">
         <div class="box_section w-[75%] mt-[120px] mb-[120px] mx-auto">
              <div class="box_part1 mb-[120px]">
-                <h1 class="text-[48px] text-white font-bold text-center">Why Choose TechWave</h1>
+                <h1 class="text-[32px] lg:text-[48px] whitespace-nowrap text-white font-bold text-center">Why Choose TechWave</h1>
 
             <div class="item">
                 <div class="item1 h-[50%] w-full grid grid-cols-1 lg:grid-cols-3 gap-[32px] mt-[32px]">
@@ -275,6 +275,44 @@
 
         </div>
     </section>
+
+    <!--part6-->
+    <footer class="w-full h-[248px] lg:h-[412px] bg-[url('assets/footer-bg.png')] bg-cover bg-center bg-contain overflow-hidden">
+        <div class="footer_content w-[75%] mx-auto">
+             <div class="main_content">
+                <h1 class="text-[32px] mt-[60px] sm:mt-[60px] lg:mt-[100px] sm:text-[32px] lg:text-[60px] text-white font-bold whitespace-nowrap text-center mb-[20px]">Tech <span
+                    class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent font-bold text-[32px] sm:text-[32px] lg:text-[60px] -ml-2">Wave</span>
+            </h1>
+            <div class="logo_footer grid grid-cols-2 lg:flex lg:justify-center gap-x-[1px] sm:gap-[2px] lg:gap-x-[40px] gap-y-[20px] max-w-[300px] sm:max-w-[380px] lg:max-w-full mx-auto justify-items-center">
+                <div class="spotify flex items-center justify-center gap-[8px]">
+                    <img class="w-[24px] h-[24px]" src="./assets/spotify.png" alt="Spotify">
+                    <h1 class="text-[16px] text-white/60">Spotify</h1>
+                </div>
+
+                <div class="apple flex items-center justify-center gap-[8px]">
+                    <img class="w-[24px] h-[24px]" src="./assets/apple-podcast.png" alt="Apple Podcasts">
+                    <h1 class="text-[16px] text-white/60">Apple Podcasts</h1>
+                </div>
+
+                <div class="youtube flex items-center justify-center gap-[8px]">
+                    <img class="w-[26px] h-[20px]" src="./assets/youtube-podcast.png" alt="YouTube">
+                    <h1 class="text-[16px] text-white/60">YouTube</h1>
+                </div>
+
+                <div class="twitter flex items-center justify-center gap-[8px]">
+                    <img class="w-[26px] h-[20px]" src="./assets/twitter.png" alt="Twitter">
+                    <h1 class="text-[16px] text-white/60">Twitter</h1>
+                </div>
+
+            </div>
+
+            <div class="pt-[20px] lg:pt-[40px]">
+                <p class="text-[16px] text-white/70 text-center">© 2026 TechWave Podcast. All rights reserved. <br></p>
+            </div>
+             </div>
+        </div>
+         
+    </footer>
 
 </body>
 
